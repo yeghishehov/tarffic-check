@@ -4,17 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles4.css">
 </head>
 <body>
     <div className="root">
         <img src="assets/logo.svg" alt="" class="logo"/>
         <div class="container">
-            <p class="text">A system of violations detected by the traffic police's video and photo equipment</p>
-            <button class="button">
-                <p class="buttonText">Join Now</p>
-                <img src="assets/arrow.svg" alt="" class="arrow">
-            </button>
+            <p class="header">Enter Information</p>
+            
+            <div class="information">
+                <label class="lable" >Type of Search *</label>
+                <div class="inputLine">
+                    <input type="text" name="surname" class="input" placeholder="John">
+                </div>
+
+                <label class="lable" >Type of Search *</label>
+                <label class="labelRadio">
+                    <input name="group1" type="radio" checked class="radio" />
+                    <span class="textConteiner">
+                        <p class="text">By Your Traffic Ticket Number</p>
+                    </span>
+                </label>
+                <label class="labelRadio">
+                    <input name="group1" type="radio" class="radio" />
+                    <span class="textConteiner">
+                        <p class="text">The Last 4 Digits of Your Social Security Number (SSN)</p>
+                    </span>
+                </label>
+
+                <label class="lable" >Traffic Ticket Number: *</label>
+                <div class="inputLine">
+                    <input type="text" name="ticket-number" class="input" placeholder="00000">
+                </div>
+
+                <label class="lableEmail" >Email</label>
+                <div class="inputLine">
+                    <input type="text" name="email" class="input" placeholder="John.Smith@gmail.com">
+                </div>
+
+                <label class="lableEmail" >Re-enter Email Address: *</label>
+                <div class="inputLine">
+                    <input type="text" name="re-email" class="input" placeholder="John.Smith@gmail.com">
+                </div>
+            </div>
+
+            <div class="tools">
+                <p class="stepText">Step: <b>3</b></p>
+                <a href="page1.html" class="link">
+                    <button class="button">
+                        <p class="buttonText">View</p>
+                        <img src="assets/arrow.svg" alt="" class="arrow">
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
 </body>

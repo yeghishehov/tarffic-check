@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
     <div className="root">
         <img src="assets/logo2.svg" alt="" class="logo"/>
         <div class="container">
-            <p class="text">A system of violations detected by the traffic police's video and photo equipment</p>
-            <a href="page3.html" class="link">
-                <button class="button">
-                    <p class="buttonText">Join Now</p>
-                    <img src="assets/arrow.svg" alt="" class="arrow">
-                </button>
-            </a>
+            <p class="header">Respond to Question</p>
+            <p class="title">Do you have a New York State driver license, learner permit, or non-driver ID? *</p>
+            <label class="label">
+                <input name="group1" type="radio" checked class="radio" />
+                <span class="textConteiner">
+                    <p class="text">Yes, I do have a New York State license, permit or non-driver ID</p>
+                </span>
+            </label>
+            <label class="label">
+                <input name="group1" type="radio" class="radio" />
+                <span class="textConteiner">
+                    <p class="text">No, I do have a New York State license, permit or non-driver ID</p>
+                </span>
+            </label>
+            <div class="tools">
+                <p class="stepText">Step: <b>1</b></p>
+                <a href="page3.html" class="link">
+                    <button class="button">
+                        <p class="buttonText">Next</p>
+                        <img src="assets/arrow.svg" alt="" class="arrow">
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
 </body>
