@@ -1,0 +1,133 @@
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("assets/mob1.png") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  top: 20px;
+  left: calc(50% - 82px);
+  z-index: 222;
+}
+.link {
+  text-decoration: none;
+  padding: 0;
+  display: inline-block;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background: rgba(247, 247, 247, 0.5);
+  backdrop-filter: blur(10px);
+}
+.header {
+  font-family: Khula;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1B2644;
+  width: 80%;
+}
+.title {
+  font-family: Khula;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 144.2%;
+  color: #1B2644;
+  width: 80%;
+}
+.label {
+  display: flex;
+  margin-top: 20px;
+  width: 80%;
+}
+.radio {
+  margin-top: -5px;
+  margin-left: -5px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+}
+.radio:checked {
+  opacity: 0.7;
+}
+.textConteiner {
+  padding: 0;
+  margin-left: 11px;
+}
+.text {
+  margin: 0;
+  font-family: Khula;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 144.2%;
+  color: rgba(17, 25, 46, 0.9);
+}
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 40%;
+}
+.stepText {
+  font-family: Khula;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 48px;
+  color: #1B2644;
+  margin: 0;
+
+  position: absolute;
+  width: 90px;
+  height: 48px;
+  left: calc(100% - 120px);
+  top: 83px;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* outline: none; */
+  background: #336CFB;
+  border-radius: 8px;
+  border: 0px;
+  width: 225.48px;
+  height: 56.91px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+.buttonText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 144.2%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.arrow {
+
+}

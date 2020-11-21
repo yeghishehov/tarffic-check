@@ -1,0 +1,73 @@
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("assets/mob1.png") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  top: 20px;
+  left: calc(50% - 82px);
+}
+.link {
+  text-decoration: none;
+  padding: 0;
+  display: inline-block;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  
+}
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 144.2%;
+  text-transform: capitalize;
+  color: #283861;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* outline: none; */
+  background: #336CFB;
+  border-radius: 8px;
+  border: 0px;
+  width: 225.48px;
+  height: 56.91px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  /* cursor: pointer; */
+}
+.buttonText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 144.2%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  width: 91.27px;
+  height: 31.14px;
+}
+.arrow {
+
+}
